@@ -1,0 +1,120 @@
+html, body {
+  font-family: "Lora", "Georgia", "Times", serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.1em;
+  line-height: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+}
+
+header {
+  height: 100px;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.headline_block {
+  border-top: 5px solid rgb(0, 0, 0);
+  width: 100%;
+}
+
+.headline_block h2 {
+  margin-top: 1.2vmin;
+  font-size: 5vmin;
+}
+
+#quote {
+  min-height: 600px;
+  padding-bottom: 100px;
+}
+
+#quote_content {
+  width: 60%;
+  padding-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(255, 255, 255);
+  font-size: 6vmin;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+#bio p {
+  font-size: 1.2em;
+}
+
+#hear_for_yourself {
+  margin-top: 30px;
+}
+
+.song {
+  padding: 1px 10px 5px 20px;
+  margin-bottom: 10px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  line-height: 0.25em;
+}
+
+.song-title {
+  font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  line-height: 0.8em;
+}
+
+.song-composer {
+  font-family: "Lora", "Georgia", "Times New Roman", "Times", serif;
+  font-style: italic;
+}
+
+#keep_up {
+  background: rgb(52, 71, 64);
+  color: rgb(255, 255, 255);
+}
+
+#keep_up .headline_block {
+  border-top-color: rgb(255, 255, 255);
+}
+
+#copyright_footer {
+  line-height: 1.7em;
+  background: rgb(40, 40, 40);
+  color: rgb(200, 200, 200);
+  font-size: 0.9em;
+  padding-bottom: 30px;
+}
+
+#copyright_footer h3, #copyright_footer h4 {
+  color: rgb(170, 170, 170);
+}
+
+a, a:visited {
+  color: inherit;
+}
+
+a:hover, a:visited:hover {
+  color: inherit;
+  opacity: 0.72;
+}
+
+#copyright {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+/* MailChimp styles */
+/*#mc_embed_signup {
+  background: #fff;
+  clear: left;
+}*/
+
+#mc-embedded-subscribe {
+  color: rgb(0, 0, 0) !important;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+}
